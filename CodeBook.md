@@ -71,8 +71,8 @@ activity code and its corresponding description
 
 ## Create a new dataset that is group by acitivity and subject
 
-This new dataset also summarise all column using mean function -
-newGroupedDf: new dataset that is group by acitivty and subject and
+This new dataset also summarise all column using mean function 
+- newGroupedDf: new dataset that is group by acitivty and subject and
 summarised as mean
 
 End of CodeBook
