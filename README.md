@@ -36,6 +36,17 @@ Based in the instruction above:
 5. Finally we create a separate dataset that have the average of each column for each activity and each subject.
 
 ## Flow of run_analysis.R Script
-1. The first step is to extract the column names from a separate feature files.
-2. 
+1. The first step is to extract the column names from a separate feature files. We also tideup the column names by removing () in the column names.
+2. Next we process the main dataset from the train and test folder and combined into one table with the column names added. Main table is named "file".
+3. Then, we process the label file from train and test folder and create a separate table called "label". Column names is "ActCode"
+4. Next, we process the subject file from train and test folder and freate a separate table called "subject". Coumn name is "Subject".
+5. Finally, we combined the main table with label table and subject table. Combined table is named "totalFile".
+6. At stage 5 we have the complete dataset. Now to need to satisfy the project requirement to select columns that have mean and std word in it. We also need to include ActCode and Subject column.
+7. The dataset with selected column is named "df".
+8. Finally, we extract a separate activity table that reference the activity code. Then we add a new column called "Acitivity" by converting the activity code to the corresponding name.
+9. The column "ActCode" is removed after it has converted into corresponding name.
+10. Finally we satisfy the final requirement by creating a seperate dataset called "newGroupedDf".
+
+    
+ 
 
