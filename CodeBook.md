@@ -29,7 +29,7 @@ CodeBook
 -   yTrain: contains dataset read from ytrainFilePath
 -   yTest: contains dataset read from ytestFilePath
 -   label: row combined of the label file for both training and test
-    dataset (yTrain, yTest)
+    dataset (yTrain, yTest), column name is "ActCode"
 
 ## Processing Subject File
 
@@ -40,7 +40,7 @@ CodeBook
 -   trainSubject: contains dataset read from subjectTrainFilePath
 -   testSubject: contains dataset read from subjectTestFilePath
 -   subject: row combined of the subject file for both training and test
-    dataset (trainSubject, testSubject)
+    dataset (trainSubject, testSubject), column name is "Subject"
 
 ## Cobined all dataset into a single table
 
