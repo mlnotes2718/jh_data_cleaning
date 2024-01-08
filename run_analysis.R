@@ -46,7 +46,7 @@ subjectTestFilePath <- "./UCI HAR Dataset/test/subject_test.txt"
 trainSubject <- read.table(subjectTrainFilePath, col.names = c("Subject"))
 testSubject <- read.table(subjectTestFilePath, col.names = c("Subject"))
 # combined training and test data
-subject <- rbind(xSubject, ySubject)
+subject <- rbind(trainSubject, testSubject)
 
 ### Combined all data into a single file
 # combined all data, label and subjects into a file using cbind
