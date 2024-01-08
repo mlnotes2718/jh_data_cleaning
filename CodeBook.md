@@ -51,16 +51,19 @@ CodeBook
 
 This section extract the column names that include mean and std. Please
 note that we besides mean, std; we also search for Mean and Std We also
-include the key column activity and subject - newColNames: column names
-of the combined dataset - selectedCol: index of the selected columns -
-df: dataset that only include the selected comlumns (88 columns)
+include the key column activity and subject.
+
+- newColNames: column names of the combined dataset
+- selectedCol: index of the selected columns
+- df: dataset that only include the selected comlumns (88 columns)
 
 ## Open and read the table that reference the activity code
 
-This section open the activity reference code - labelNamesPath: location
-of the acitivity code referecne table - “./UCI HAR
-Dataset/activity\_labels.txt” - labelName: table that contains the
-activity code and its corresponding description
+This section open the activity reference code 
+
+- labelNamesPath: location of the acitivity code referecne table - “./UCI HAR
+Dataset/activity\_labels.txt”
+- labelName: table that contains the activity code and its corresponding description
 
 ## Add a column of activity description
 
